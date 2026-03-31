@@ -1,0 +1,11 @@
+# Q3. Find the greatest among 3 unequal numbers
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+
+if a > b and a > c:
+    print("Greatest number is:", a)
+elif b > a and b > c:
+    print("Greatest number is:", b)
+else:
+    print("Greatest number is:", c)
